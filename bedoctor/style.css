@@ -80,7 +80,7 @@
 }
 .hero-section {
     width: 100%;
-    min-height: 700px;
+    min-height: auto;
     float: left;
     position: relative;
     background: linear-gradient(
@@ -335,3 +335,172 @@
 .services-card-container .dental button:hover {
     border: 1px solid blue;
 }
+
+.whyChose-section {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    border-radius: 30px;
+    padding: 50px;
+    margin-top: 50px;
+}
+.whyChose-section .whyChose-content {
+    width: 100%;
+    min-height: 760px;
+    float: left;
+    position: relative;
+    border: 2px solid green;
+    padding: 10px 20px 150px 150px;
+    border-radius: 30px;
+    background-image: url(/img/bedoctor-section-bg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.whyChose-content .whyChose-top {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 100px;
+}
+.whyChose-content .whyChose-bottom {
+    width: 100%;
+    min-height: auto;
+    float: left;
+    position: relative;
+    margin-top: 100px;
+}
+.whyChose-content .whyChose-top h2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -2px;
+    color: #eff5f9;
+}
+.whyChose-top .whyChose-btn button {
+    width: 200px;
+    height: auto;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.whyChose-btn button:hover {
+    background-color: #204289;
+    border: none;
+}
+
+.whyChose-bottom-one {
+    width: 33%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.whyChose-bottom-one h5 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 5px;
+    color: #fff;
+}
+
+/* visit-section css */
+/* .visit-section {
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.visit-section .visit-content {
+    width: 100%;
+    height: 50%;
+    float: left;
+    position: relative;
+
+    margin: 0px auto;
+}
+.visit-content .doctor-img {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: left;
+    border: 2px solid blue;
+}
+.visit-content .doctor-img img {
+    width: 100%;
+    border-radius: 40px;
+    padding: 50px;
+}
+.visit-content .doctor-address {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    float: left;
+    padding: 100px 100px 100px 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin: 0px auto;
+    border-radius: 50px;
+    background: #cbe4fe;
+    background: linear-gradient(
+        90deg,
+        rgba(203, 228, 254, 1) 0%,
+        rgba(241, 245, 251, 1) 50%,
+        rgba(205, 229, 253, 1) 100%
+    );
+    border: 2px solid blueviolet;
+}
+.doctor-address .doctor-address-content {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    border: 2px solid yellow;
+}
+.doctor-address .location-icon {
+    width: 100px;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+.doctor-address .visit-facility h3 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: -1px;
+    color: #204289;
+}
+.office-address p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 15px;
+    color: #204289;
+}
+.doctor-address .appointment-btn button {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.appointment-btn button:hover {
+    background-color: #204289;
+} */
+/* .doctor-address .visit-facility,
+.office-address,
+.appointment-btn {
+    padding: 15px;
+} */

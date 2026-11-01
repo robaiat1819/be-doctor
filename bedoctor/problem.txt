@@ -1,0 +1,2 @@
+1. dive img optimization problem
+2. text overlap content-container h4 
