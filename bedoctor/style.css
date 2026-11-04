@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+* {
+    font-family: "plusJakartaSans-regular";
+}
 @font-face {
     font-family: "plusJakartaSans-regular";
     src: url(fonts/plusJakartaSans-regular.ttf);
@@ -15,6 +18,7 @@
     height: auto;
     float: left;
     position: relative;
+    margin: 20px;
 }
 .container {
     width: 80%;
@@ -38,7 +42,7 @@
     border-radius: 50px 50px 0px 0px;
 }
 #header .logo {
-    width: 15%;
+    width: 20%;
     height: auto;
     float: left;
     position: relative;
@@ -52,7 +56,38 @@
     height: auto;
     float: left;
     position: relative;
+    padding: 10px 120px;
 }
+.nav-section ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 2px solid red;
+    background-color: #ffffff;
+}
+.nav-section ul li {
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+.nav-section ul li a {
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2980b9;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.nav-section ul li a:hover {
+    background-color: #2b6cf5;
+    color: #ffffff;
+}
+
 .nav-section p {
     text-align: center;
     font-size: 20px;
@@ -60,10 +95,17 @@
     gap: 5px;
 }
 #header .contact-section {
-    width: 25%;
+    width: 20%;
     height: auto;
     float: left;
     position: relative;
+}
+.nav-section a {
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #fff;
 }
 .contact-section p {
     text-decoration: none;
@@ -410,97 +452,205 @@
 }
 
 /* visit-section css */
-/* .visit-section {
-    width: 100%;
-    height: 100%;
-    float: left;
-    position: relative;
-}
-.visit-section .visit-content {
-    width: 100%;
-    height: 50%;
-    float: left;
-    position: relative;
 
-    margin: 0px auto;
-}
-.visit-content .doctor-img {
-    width: 50%;
-    height: 50%;
-    position: relative;
-    float: left;
-    border: 2px solid blue;
-}
-.visit-content .doctor-img img {
+/* padding : top -> right-> bottom-> left */
+
+.visit-section {
     width: 100%;
-    border-radius: 40px;
-    padding: 50px;
-}
-.visit-content .doctor-address {
-    width: 50%;
-    height: 50%;
-    position: relative;
+    height: auto;
     float: left;
-    padding: 100px 100px 100px 100px;
-    text-align: center;
-    margin-top: 50px;
-    margin: 0px auto;
-    border-radius: 50px;
-    background: #cbe4fe;
+    position: relative;
+}
+.visit-section .visit-img {
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 0px 65px 65px 65px;
+}
+.visit-section .visit-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.visit-section .visit-description {
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    background: #cce5ff;
+    overflow: hidden;
     background: linear-gradient(
         90deg,
-        rgba(203, 228, 254, 1) 0%,
-        rgba(241, 245, 251, 1) 50%,
-        rgba(205, 229, 253, 1) 100%
+        rgba(204, 229, 255, 1) 0%,
+        rgba(236, 243, 252, 1) 50%,
+        rgba(204, 230, 253, 1) 100%
     );
-    border: 2px solid blueviolet;
-}
-.doctor-address .doctor-address-content {
-    width: 100%;
-    height: auto;
-    float: left;
-    position: relative;
-    border: 2px solid yellow;
-}
-.doctor-address .location-icon {
-    width: 100px;
-    height: auto;
-    margin: 0px auto;
     text-align: center;
-    padding: 20px;
-    border-radius: 100px;
-    background-color: #ffffff;
-    padding: 30px;
+    padding: 100px 20px 100px 20px;
 }
-.doctor-address .visit-facility h3 {
-    font-family: "Plus Jakarta Sans";
+.visit-description .location-icon {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 100px;
+    margin: 0px auto;
+    border: 0px white;
+}
+.visit-description .location-icon img {
+    width: 100%;
+}
+.visit-description h4 {
+    font-family: "Plus Jakarta bold";
     font-size: 38px;
     font-weight: 700;
-    line-height: 10px;
+    line-height: 46px;
     letter-spacing: -1px;
     color: #204289;
 }
-.office-address p {
+.visit-description h6 {
     font-family: "Plus Jakarta Sans";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 15px;
+    line-height: 28px;
     color: #204289;
 }
-.doctor-address .appointment-btn button {
-    width: 200px;
+.visit-description button {
+    width: 230px;
     height: auto;
-    padding: 20px;
+    position: relative;
     background-color: blue;
-    color: #ffffff;
-    border-radius: 30px;
+    text-align: center;
+    color: white;
     font-size: 15px;
-}
-.appointment-btn button:hover {
-    background-color: #204289;
-} */
-/* .doctor-address .visit-facility,
-.office-address,
-.appointment-btn {
+    border-radius: 200px;
     padding: 15px;
-} */
+    margin: 0px auto;
+}
+.visit-description button:hover {
+    background-color: #204289;
+}
+
+.health-section {
+    width: 98%;
+    height: auto;
+    float: left;
+    position: relatives;
+    background-color: #f2f6fa;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.health-section .health-description {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 10px 10px 40px 10px;
+}
+.health-section .health-description h6 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    color: #2b6cf5;
+}
+.health-section .health-description h2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -2px;
+    color: #204289;
+}
+.health-section .health-description p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #204289;
+}
+.health-card-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 0px 0px 100px 0px;
+}
+.health-card-container .health-card {
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 100px;
+    text-align: center;
+    margin-left: 3%;
+}
+.health-card-container .health-card-3 {
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 100px;
+    text-align: center;
+    margin-left: 3%;
+}
+.health-card-container .health-card img {
+    width: 89px;
+    height: 52px;
+}
+#card-3 {
+    color: #ffffff;
+    background-color: #2b6cf5;
+}
+#card-3 p {
+    color: #ffffff;
+}
+.health-card-container .health-card p sup {
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #204289;
+}
+.health-card-container .health-card p sub {
+    font-family: "Plus Jakarta Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #204289;
+}
+.health-card ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.health-card ul li {
+    list-style: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.health-card button {
+    width: 120px;
+    height: 50px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    background-color: #2b6cf5;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+}
