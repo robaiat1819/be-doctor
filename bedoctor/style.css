@@ -171,7 +171,7 @@
 }
 
 .content-bottom .buttton-1 {
-    width: 230px;
+    width: 220px;
     height: auto;
     float: left;
     position: relative;
@@ -179,14 +179,12 @@
     text-align: center;
     margin-right: 30px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 200px;
     padding: 20px;
 }
 .buttton-1:hover {
     background-color: #204289;
-}
-.content-bottom {
 }
 
 .content-bottom .buttton-2 {
@@ -198,9 +196,9 @@
     background-color: #ffffff;
     text-align: center;
     color: #2b6cf5;
-    font-size: 20px;
-    border-radius: 100px;
-    padding: 20px;
+    font-size: 16px;
+    border-radius: 200px;
+    padding: 18px;
 }
 .buttton-2:hover {
     border: 1px solid #2b6cf5;
@@ -566,6 +564,14 @@
     letter-spacing: -2px;
     color: #204289;
 }
+.health-section .health-description h2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: -2px;
+    color: #204289;
+}
 .health-section .health-description p {
     font-family: "Plus Jakarta Sans";
     font-size: 20px;
@@ -610,8 +616,11 @@
     color: #ffffff;
     background-color: #2b6cf5;
 }
-#card-3 p {
+#card-3 h2 {
     color: #ffffff;
+}
+#card img {
+    background-color: #2b6cf5;
 }
 .health-card-container .health-card p sup {
     font-family: "Plus Jakarta Sans";
@@ -627,6 +636,21 @@
     line-height: 46px;
     letter-spacing: -1px;
     color: #204289;
+}
+#card-3 p sup {
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffffff;
+}
+#card-3 p sub {
+    font-family: "Plus Jakarta Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #ffffff;
 }
 .health-card ul {
     width: 100%;
@@ -653,4 +677,191 @@
     border-radius: 30px;
     border: none;
     margin-top: 40px;
+}
+#card-3 button {
+    width: 120px;
+    height: 50px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    background-color: #ffffff;
+    color: #2b6cf5;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+}
+#card-3 p,
+sup,
+sub {
+    color: #ffffff;
+}
+
+/* patients section start here */
+
+.patients-section {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.patients-section .satisfied-patients {
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 50px;
+}
+.patients-section .satisfied-patients img {
+    width: 158px;
+    height: 90px;
+}
+.patients-section .satisfied-patients h2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -2px;
+    color: #204289;
+}
+.patients-section .satisfied-patients h5 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #204289;
+}
+.satisfied-patients span {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #204289;
+}
+.satisfied-patients p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #204289;
+}
+.satisfied-review-img {
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.satisfied-review-img img {
+    width: 100%;
+}
+.appointment-section {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.appointment-section {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin: 0px auto;
+}
+.appointment-bg {
+    width: 100%;
+    height: 600px;
+    float: left;
+    position: relative;
+    border-radius: 30px;
+    padding: 70px 50px;
+    background: url(img/bedoctor-wrap-bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px auto;
+    text-align: center;
+}
+.appointment-bg img {
+    width: 100px;
+    height: 100px;
+}
+.appointment-bg p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #ffe8da;
+}
+.appointment-bg button {
+    width: 220px;
+    height: auto;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    margin-right: 30px;
+    color: blue;
+    font-size: 16px;
+    border-radius: 200px;
+    padding: 20px;
+    border: none;
+    margin: 0px auto;
+}
+.appointment-content {
+    padding: 80px;
+}
+.footer-section {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.footer-section .footer-content {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.footer-section .footer-img {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.footer-section .footer-img img {
+    width: 48px;
+    height: 43px;
+    display: block;
+    margin: 0 auto;
+}
+.footer-details .office-details {
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 20px;
+    border: 2px solid red;
+}
+.footer-details .office-details ul {
+    list-style: none;
+}
+.footer-details .office-details ul li {
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #204289;
+}
+.footer-details .office-details p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #204289;
+    padding-left: 30px;
 }
