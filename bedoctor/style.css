@@ -65,7 +65,7 @@
     margin: 0px auto;
     overflow: hidden;
     border-radius: 30px;
-    border: 2px solid red;
+
     background-color: #ffffff;
 }
 .nav-section ul li {
@@ -831,6 +831,7 @@ sub {
     float: left;
     position: relative;
     text-align: center;
+    padding: 40px;
 }
 
 .footer-section .footer-img img {
@@ -845,7 +846,6 @@ sub {
     float: left;
     position: relative;
     padding: 20px;
-    border: 2px solid red;
 }
 .footer-details .office-details ul {
     list-style: none;
@@ -864,4 +864,131 @@ sub {
     line-height: 28px;
     color: #204289;
     padding-left: 30px;
+}
+
+.social-icon {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.social-icon ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.social-icon ul li {
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+.social-icon ul li a {
+    float: left;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+
+    background-color: #f2f6fa;
+    border-radius: 100%;
+    margin: 0px auto;
+}
+.social-icon ul li a img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.footer-details .contact-me {
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 20px;
+    margin-left: 70px;
+    text-align: center;
+}
+.footer-details .contact-me h5 {
+    position: relative;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2px;
+    color: #204289;
+}
+.footer-details .contact-me a {
+    position: relative;
+    font-family: "Plus Jakarta Sans";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -1px;
+    color: #2b6cf5;
+    text-decoration: none;
+    display: block;
+}
+.footer-details .contact-me button {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    background-color: #2b6cf5;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+}
+.footer-details .usefull-link {
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 20px;
+    margin-left: 70px;
+    text-align: center;
+    padding: 10px 50px 50px 50px;
+}
+.footer-details .usefull-link h5 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #204289;
+    margin-left: 10px;
+}
+.footer-details .usefull-link ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.footer-details .usefull-link ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+.footer-details .usefull-link ul li a {
+    position: relative;
+    color: #204289;
+    text-decoration: none;
+    display: block;
+    font-family: plusJakartaSans-regular;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-details .usefull-link ul li a:hover {
+    color: #2b6cf5;
+}
+.footer-section .copyright {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.footer-section .copyright p {
+    text-align: center;
+    margin: 0 auto;
 }
