@@ -134,7 +134,7 @@
         rgba(207, 231, 252, 1) 100%
     );
     border-radius: 0 0 50px 50px;
-    padding: 20px 70px 50px ;
+    padding: 20px 70px 50px;
 }
 .hero-section .hero-about {
     width: 50%;
@@ -202,6 +202,7 @@
     font-size: 16px;
     border-radius: 200px;
     padding: 18px;
+    border: 1px solid #ecf0f1;
 }
 .buttton-2:hover {
     border: 1px solid #2b6cf5;
@@ -367,14 +368,17 @@
     color: #204289;
 }
 .services-card-container .dental button {
+    width: 135px;
+    height: 52px;
     font-family: "Plus Jakarta Sans";
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 18px;
     color: #2b6cf5;
-    padding: 18px;
+    padding: 15px;
     border-radius: 30px;
-    border: none;
+    border: 1px solid #ecf0f1;
+    background-color: #ffffff;
 }
 .services-card-container .dental button:hover {
     border: 1px solid blue;
@@ -394,7 +398,7 @@
     min-height: 760px;
     float: left;
     position: relative;
-    border: 2px solid green;
+
     padding: 10px 20px 150px 150px;
     border-radius: 30px;
     background-image: url(/img/bedoctor-section-bg3.jpg);
@@ -432,6 +436,7 @@
     font-size: 20px;
     border-radius: 50px;
     padding: 15px;
+    border: none;
 }
 .whyChose-btn button:hover {
     background-color: #204289;
@@ -530,6 +535,7 @@
     border-radius: 200px;
     padding: 15px;
     margin: 0px auto;
+    border: none;
 }
 .visit-description button:hover {
     background-color: #204289;
@@ -682,6 +688,9 @@
     border: none;
     margin-top: 40px;
 }
+.health-card button:hover {
+    background-color: #204289;
+}
 #card-3 button {
     width: 120px;
     height: 50px;
@@ -695,6 +704,11 @@
     border-radius: 30px;
     border: none;
     margin-top: 40px;
+}
+#card-3 button:hover {
+    background-color: #2b6cf5;
+    color: white;
+    border: 1px solid white;
 }
 #card-3 p,
 sup,
@@ -812,6 +826,10 @@ sub {
     padding: 20px;
     border: none;
     margin: 0px auto;
+    transition: transform 0.3s ease;
+}
+.appointment-content button:hover {
+    transform: scale(1.05);
 }
 .appointment-content {
     padding: 80px;
@@ -886,17 +904,20 @@ sub {
 .social-icon ul li {
     float: left;
     list-style-type: none;
-    padding: 5px;
+    padding: 7px;
 }
 .social-icon ul li a {
     float: left;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
 
     background-color: #f2f6fa;
-    border-radius: 100%;
+    border-radius: 200%;
     margin: 0px auto;
+}
+.social-icon ul li a:hover {
+    color: #2b6cf5;
 }
 .social-icon ul li a img {
     width: 25px;
@@ -941,6 +962,9 @@ sub {
     padding: 10px;
     margin-top: 30px;
     border: none;
+}
+.footer-details .contact-me button:hover {
+    background-color: #204289;
 }
 .footer-details .usefull-link {
     width: 30%;
