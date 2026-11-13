@@ -18,14 +18,8 @@
     height: auto;
     float: left;
     position: relative;
-    margin: 20px;
 }
-.container-h {
-    width: 80%;
-    height: auto;
-    margin: 0px auto;
-    padding: 50px 0px;
-}
+
 .container {
     width: 80%;
     height: auto;
@@ -44,49 +38,46 @@
         rgba(255, 255, 255, 1) 50%,
         rgba(207, 231, 252, 1) 100%
     );
-    border-radius: 50px 50px 0px 0px;
+    border-radius: 40px 40px 0px 0px;
+}
+#header .container {
+    padding: 40px 0px;
 }
 #header .logo {
     width: 15%;
     height: auto;
     float: left;
     position: relative;
-    margin: 0px auto;
-    text-align: center;
 }
-.logo {
+.logo img {
     width: 100%;
-    padding: 20px;
 }
 
 #header .nav-section {
-    width: 65%;
+    width: 60%;
     height: auto;
     float: left;
     position: relative;
-    padding: 15px 120px;
+    padding: 0px 130px;
 }
 .nav-section ul {
-    width: 100%;
-    height: auto;
     float: left;
     margin: 0px auto;
     overflow: hidden;
     border-radius: 30px;
-
     background-color: #ffffff;
 }
 .nav-section ul li {
     float: left;
     list-style-type: none;
-    padding: 5px;
+    padding: 2px;
 }
 .nav-section ul li a {
     display: block;
-    padding: 10px 30px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: #204289;
     background-color: #ffffff;
     border-radius: 30px;
@@ -97,21 +88,20 @@
 }
 
 #header .contact-section {
-    width: 15%;
+    width: 20%;
     height: auto;
     float: left;
     position: relative;
 }
 .nav-section a {
-    font-family: "Plus Jakarta Sans";
     font-size: 15px;
     font-weight: 700;
-    line-height: 23px;
     color: #fff;
 }
 .contact-section a {
     text-decoration: none;
 }
+
 .contact-section .button-1 {
     width: 200px;
     height: auto;
@@ -124,7 +114,7 @@
 }
 .hero-section {
     width: 100%;
-    height: 90vh;
+    height: auto;
     float: left;
     position: relative;
     background: linear-gradient(
@@ -133,8 +123,7 @@
         rgba(255, 255, 255, 1) 50%,
         rgba(207, 231, 252, 1) 100%
     );
-    border-radius: 0 0 50px 50px;
-    padding: 20px 70px 50px;
+    border-radius: 0px 0px 40px 40px;
 }
 .hero-section .hero-about {
     width: 50%;
@@ -142,23 +131,20 @@
     float: left;
     position: relative;
 }
-
 .content-1 {
     width: 100%;
     height: auto;
     float: left;
     position: relative;
-    padding: 80px 30px 100px 200px;
+    padding: 120px 100px 20px 20px;
 }
 
 .content-1 .content-top h6 {
     font-size: 18px;
     color: #2b6cf5;
     line-height: 20px;
-    font-family: "plusJakartaSans-regular";
 }
 .content-1 .content-top h1 {
-    font-family: "PlusJakartaSans-Bold";
     font-size: 65px;
     color: #204289;
     font-weight: bold;
@@ -204,27 +190,25 @@
     padding: 18px;
     border: 1px solid #ecf0f1;
 }
+
 .buttton-2:hover {
     border: 1px solid #2b6cf5;
 }
 
 .hero-section .hero-img {
     width: 50%;
-    height: 700px;
+    height: auto;
     float: left;
     position: relative;
 }
 
 .hero-section .hero-img img {
-    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: center bottom;
-    padding: 0;
+    height: auto;
 }
 
 /* about-section start */
+
 .about-section {
     width: 100%;
     height: auto;
@@ -237,15 +221,12 @@
     height: auto;
     float: left;
     position: relative;
-    padding: 100px;
 }
 .about-section .about-container .about-img {
     width: 30%;
     height: auto;
     float: left;
     position: relative;
-
-    padding: 50px 50px 100px 100px;
 }
 .about-container .about-img img {
     width: 100%;
@@ -273,7 +254,7 @@
     position: relative;
 }
 .about-name .name {
-    width: 90%;
+    width: 100%;
 }
 .about-name .divider {
     width: 10%;
@@ -332,21 +313,19 @@
     color: #204289;
 }
 .services-section .services-card-container {
-    width: 90%;
+    width: 100%;
     height: auto;
     float: left;
     position: relative;
-    margin-left: 5%;
-    padding: 60px;
+    text-align: center;
 }
 .services-section .services-card-container .dental {
-    width: 30%;
+    width: 33.33%;
     height: auto;
     float: left;
     position: relative;
     text-align: center;
     border-radius: 50px;
-    margin-right: 3%;
     padding: 30px;
 }
 .services-card-container img {
